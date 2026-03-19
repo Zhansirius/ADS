@@ -12,7 +12,7 @@ public class Task8 {
         }
     }
     public static boolean isInt(String s){
-        if (s.length() == 0){
+        if (s.isEmpty()){
             return true;
         }
         if(Character.isDigit(s.charAt(0))){
